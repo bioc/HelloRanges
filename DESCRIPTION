@@ -3,7 +3,7 @@ Type: Package
 Title: Introduce *Ranges to bedtools users
 Version: 1.35.0
 Author: Michael Lawrence
-Maintainer: Michael Lawrence <michafla@gene.com>
+Maintainer: Michael Lawrence <lawremi@gmail.com>
 Description: Translates bedtools command-line invocations to R code
         calling functions from the Bioconductor *Ranges infrastructure.
         This is intended to educate novice Bioconductor users and to
