@@ -10,7 +10,7 @@ importFrom(tools, file_ext, file_path_sans_ext)
 importFrom(stats, as.formula, setNames)
 importFrom(utils, read.table)
 
-importFrom(GenomeInfoDb, Seqinfo, seqlevels, "seqlevels<-")
+importFrom(Seqinfo, Seqinfo, seqlevels, "seqlevels<-")
 importFrom(rtracklayer, import, path)
 
 exportPattern("(R_)?bedtools_.*")
@@ -23,5 +23,5 @@ importFrom(Biostrings, readDNAStringSet, letterFrequency, alphabetFrequency,
            vcountPattern)
 importFrom(rtracklayer, asBED, BEDFile)
 importFrom(Rsamtools, ScanBamParam)
-importFrom(GenomeInfoDb, seqlengths)
+importFrom(Seqinfo, seqlengths)
 importFrom(SummarizedExperiment, SummarizedExperiment)

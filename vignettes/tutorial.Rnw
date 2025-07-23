@@ -173,7 +173,7 @@ bedtools_intersect("-a cpg.bed -b exons.bed -g hg19.genome")
 We now have a populated genome, since the tutorial had provided the
 \file{hg19.genome} file. However, in general, information on the
 genome build should be centralized, not sitting somewhere in a
-file. \Bioconductor{} provides \Biocpkg{GenomeInfoDb} as its central
+file. \Bioconductor{} provides \Biocpkg{Seqinfo} as its central
 source of sequence information. We can hook into that by passing the
 genome identifier instead of a file name:
 <<intersect-genome-id>>=
